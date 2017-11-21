@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: sezw4e2Qz7GCZ4JK97D2S2i8abWJm8VicUPBGeYpv5IuFeVxgvjj1/Ui3d6TLyc/7LsOipLufVNkl1Eee3NE3I+2MSuxC+SNoqSxdFud3D8HuhQHjNcQhN71usUs102CY2EJ4I9CXils3UO0iL6q5QtfTxp/PJPQLbKFWLl2hgZ62cXVng7DhlWXD7nefjCtBs+3fMRD4zKA9mqIEkD9CIAOGbJDZ1i7XknIFSv73+pbr07BFKwrcO/+qLe9xwEtqD6KHP5PxffXkD2EwyKcROJI3gv+or+lf8EwGHvu73O7ZDLrAr16yaow7OJunwMOKD2qc91X7ZD/ex7PMnQLuMb+UQEUZDXGWj8pqpE6m0u3kTKPLpuRaZeaUElABhxL6XUpnU4hR7pVx9H2MFPouH+BUo0qh7joyqkeCSW+E9Z4gD/FzuZfa345BPHdnPWB6ba5QJo9oNVP7eb0HmWpy6fkILEREJ/RZrcsQedV/8DXdn3RcOepVbVrZXRmSzZlJKglvJzlmS5wKA4Zoly+oVctUX13YxHtm02zsSUKd57yHn9h435mRf8uoOa24mpRYfhNezqECxE78TlgJtw79mWhHMfkhop4D1utk7MDqthV7swMfpUoOkE2GY9MA1vg5N4Ak3mZuHcSza+Kfq1fLE9/sYGJMfPsXi9z2vLRlkw=
+  app: damp-oasis-58300
+  on:
+    repo: sollertis8/node-shopping-list-integration-tests
